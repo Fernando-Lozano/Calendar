@@ -13,8 +13,8 @@ int main(void)
     int year;
     int days;
     
-    printf("This CLI program displays a specified month in any year\n");
-    printf("Enter month and year. E.g, January 1996: ");
+    printf("This command line program displays a specified month in any year\n");
+    printf("Enter month and year (e.g, January 1996): ");
     scanf("%s %i", month, &year);
     
     // finds the month's number
