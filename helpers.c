@@ -42,7 +42,6 @@ int daysInMonth(int m, int y)
             return 29;
         }
         else return 28;
-        return 2;
     }
     if (m == 3) return 31;
     if (m == 4) return 30;
