@@ -100,12 +100,12 @@ void printCalendar(char *month, int year, int startDay, int days)
         }
         else printf("%i   ", i);
         fullWeek++;
-        if (fullWeek == 7)
+        if (fullWeek == 7 && i != days)
         {
             printf("\n");
             printf(" ");
             fullWeek = 0;
         }
     }
-    printf("\n");
+    printf("\n\n");
 }
