@@ -33,7 +33,6 @@ int findMonth(char *m)
 // returns number of days in the month
 int daysInMonth(int m, int y)
 {
-    int days;
     if (m == 1) return 31;
     if (m == 2)
     {
