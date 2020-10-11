@@ -59,11 +59,11 @@ void printCalendar(char *month, int year, int startDay, int days)
 {
      // print header of calendar
     printf("\nCalendar of %i\n\n", year);
+
     for (int i = 0; i < (33 - strlen(month)) / 2; i++)
     {
         printf("-");
-    }
-    
+    } 
     month[0] = toupper(month[0]);
     printf("%s", month);
     // print remainder of stars depending on string length of month
